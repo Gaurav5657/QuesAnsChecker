@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/mainsecond.js" defer></script>
+    <script src="scripts/scaling.js" defer></script>
+  </head>
+  <body>
+    <div class="create-your-question">
+      <button>Create</button>
+    </div>
+    <div class="question-creator">
+      <div class="question-creator-card">
+        <label for="question-asking">Enter your question</label>
+        <div class="question-ask"><input type="text" /></div>
+        <button id="next-btn">Next</button>
+        <div class="answer-give">
+          <label for="answer-asking">Enter your options</label>
+          <input type="text" class="op-1" placeholder="Option 1" />
+          <input
+            type="radio"
+            class="op-1"
+            placeholder="Option 1"
+            name="correct-choice"
+          />
+
+          <input type="text" class="op-2" placeholder="Option 2" />
+          <input
+            type="radio"
+            class="op-2"
+            placeholder="Option 2"
+            name="correct-choice"
+          />
+
+          <input type="text" class="op-3" placeholder="Option 3" />
+          <input
+            type="radio"
+            class="op-3"
+            placeholder="Option 3"
+            name="correct-choice"
+          />
+
+          <input type="text" class="op-4" placeholder="Option 4" />
+          <input
+            type="radio"
+            class="op-4"
+            placeholder="Option 4"
+            name="correct-choice"
+          />
+        </div>
+        <div class="question-submit-btn"><button>Submit</button></div>
+      </div>
+    </div>
+    <div class="question-card">
+      <button id="mainPageNextBtn">Nexxt</button>
+      <div class="new-question">
+        <div class="question">
+          <h1 class="question-asked">What is your name ?</h1>
+        </div>
+        <div class="answer">
+          <div class="option-one">
+            <input type="radio" name="boom" id="option-1" />
+            <h1 class="option-one-given">Gaurav</h1>
+          </div>
+          <div class="option-two">
+            <input type="radio" name="boom" id="option-2" />
+            <h1 class="option-two-given">Gaurav</h1>
+          </div>
+          <div class="option-three">
+            <input type="radio" name="boom" id="option-3" />
+            <h1 class="option-three-given">Gaurav</h1>
+          </div>
+          <div class="option-four">
+            <input type="radio" name="boom" id="option-4" />
+            <h1 class="option-four-given">Gaurav</h1>
+          </div>
+          <div class="submit-button">
+            <button class="submit-btn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
